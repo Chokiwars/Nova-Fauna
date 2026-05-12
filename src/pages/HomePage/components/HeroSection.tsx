@@ -69,21 +69,21 @@ export function HeroSection() {
 
                 <span className="mb-6 flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-5 py-2 text-sm font-medium text-primary backdrop-blur-md">
                     <Shell className="h-4 w-4" />
-                    Explore o universo dos animais silvestres
+                    Explore o universo dos pets não convencionais
                 </span>
 
                 <h1 className="max-w-4xl text-left text-5xl font-black leading-tight text-white md:text-7xl">
-                    Descubra espécies
+                    Descubra espécies fora 
                     <span className="text-primary drop-shadow-[0_0_25px_rgba(34,197,94,0.45)]">
-                        {' '}exóticas{' '}
+                        {' '}do comum{' '}
                     </span>
-                    da fauna silvestre
+                    que são ótimos companheiros.
                 </h1>
 
                 <p className="mt-8 max-w-2xl text-left text-lg leading-8 text-zinc-300">
                     Informações sobre serpentes, lagartos, habitats naturais,
                     criadouros responsáveis e curiosidades fascinantes sobre
-                    o mundo dos animais silvestres.
+                    o mundo dos animais não convencionais.
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-4">
