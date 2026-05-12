@@ -1,3 +1,7 @@
 export function FeaturedAnimals() {
-    return <h1>Home</h1>
+    return (
+        <section id="featured-animals">
+            <h1>Home</h1>
+        </section>
+    )
 }
