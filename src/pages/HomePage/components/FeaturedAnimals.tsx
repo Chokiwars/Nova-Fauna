@@ -1,3 +1,5 @@
+import { ChevronDown } from "lucide-react"
+
 const animals = [
     {
         name: 'Jiboia Arco-Íris',
@@ -68,7 +70,7 @@ export function FeaturedAnimals() {
     return (
         <section
             id="featured-animals"
-            className="mx-auto w-full max-w-7xl px-6 py-24 border border-green-800 border-t-0 border-b-0 rounded-3xl bg-gradient-to-b from-black via-green-900/50 to-black"
+            className="relative mx-auto w-full max-w-7xl rounded-3xl border border-green-800 border-t-0 border-b-0 bg-gradient-to-b from-black via-green-900/50 to-black px-6 py-24"
         >
             {/* Header */}
             <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
@@ -78,15 +80,15 @@ export function FeaturedAnimals() {
                     </span>
 
                     <h2 className="mt-4 max-w-2xl text-4xl font-black leading-tight text-white md:text-5xl">
-                        Espécies fascinantes do universo exótico
+                        Espécies fascinantes que você precisa conhecer
                     </h2>
                 </div>
 
                 <div className="max-w-xl rounded-2xl border border-primary/10 bg-primary/5 p-5 backdrop-blur-sm">
                     <p className="text-base leading-7 text-zinc-300">
-                        Descubra espécies exóticas permitidas no Brasil,
-                        conhecendo suas origens, habitats naturais,
-                        comportamentos e curiosidades fascinantes.
+                        Descubra espécies exóticas e silvestres permitidas 
+                        no Brasil, conhecendo suas origens, habitats 
+                        naturais, comportamentos e curiosidades fascinantes.
                     </p>
                 </div>
             </div>
@@ -140,6 +142,20 @@ export function FeaturedAnimals() {
                     </article>
                 ))}
             </div>
+
+            {/* Scroll Down */}
+            <button
+                onClick={() => {
+                    document
+                        .getElementById('about-section')
+                        ?.scrollIntoView({
+                            behavior: 'smooth',
+                        })
+                }}
+                className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2 animate-bounce rounded-full border border-green-400/10 bg-black/30 p-3 text-green-400 backdrop-blur-md transition hover:border-primary/50 hover:text-primary"
+            >
+                <ChevronDown className="h-6 w-6" />
+            </button>
         </section>
     )
 }
