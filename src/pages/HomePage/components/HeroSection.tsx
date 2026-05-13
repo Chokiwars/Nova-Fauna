@@ -139,7 +139,7 @@ export function HeroSection() {
                             behavior: 'smooth',
                         })
                 }}
-                className="absolute bottom-8 left-1/2 z-20 -translate-x-1/2 animate-bounce rounded-full border border-green-400/10 bg-black/30 p-3 text-green-400 backdrop-blur-md transition hover:border-primary/50 hover:text-primary"
+                className="absolute bottom-8 left-1/2 z-50 -translate-x-1/2 animate-bounce rounded-full border border-green-400/10 bg-black/30 p-3 text-green-400 backdrop-blur-md transition hover:border-primary/50 hover:text-primary"
             >
                 <ChevronDown className="h-6 w-6" />
             </button>
