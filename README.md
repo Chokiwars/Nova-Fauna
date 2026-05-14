@@ -1,103 +1,127 @@
+<div align="center">
+
+<img src="./src/assets/banner.png" alt="Nova Fauna Banner" width="100%" />
+
 # 🐾 Nova Fauna
 
-O **Nova Fauna** é um projeto frontend desenvolvido com foco em conscientização, educação e incentivo à posse responsável de pets não convencionais.
+### 🌿 Conscientização e adoção responsável de pets não convencionais
 
-A proposta do projeto é oferecer uma experiência visual moderna, imersiva e informativa, utilizando animações, design responsivo e uma interface intuitiva.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+</p>
 
----
+<br/>
 
-## 🚀 Tecnologias utilizadas
+Projeto frontend desenvolvido para promover educação, conscientização e incentivo à posse responsável de animais exóticos e não convencionais.
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router DOM
-- Lucide React
-
----
-
-## 🎨 Objetivos do projeto
-
-- Criar uma interface moderna e responsiva
-- Promover conscientização sobre animais exóticos e silvestres
-- Incentivar adoção e cuidados responsáveis
-- Explorar animações e experiências visuais imersivas
-- Praticar arquitetura frontend baseada em componentes
+</div>
 
 ---
 
-## 📁 Estrutura do projeto
+# ✨ Sobre o projeto
+
+O **Nova Fauna** foi criado com a proposta de unir:
+
+- 🎨 Design moderno
+- ⚡ Experiência imersiva
+- 🌱 Conscientização ambiental
+- 🐍 Informações sobre pets exóticos
+- 📱 Interface totalmente responsiva
+
+---
+
+# 🚀 Tecnologias utilizadas
+
+<div align="center">
+
+| Tecnologia | Descrição |
+|---|---|
+| React | Biblioteca principal da aplicação |
+| TypeScript | Tipagem estática |
+| Tailwind CSS | Estilização moderna e responsiva |
+| Vite | Build tool ultra rápida |
+| React Router DOM | Gerenciamento de rotas |
+
+</div>
+
+---
+
+# 📁 Estrutura do projeto
 
 ```bash
 src/
-├── assets/        # Imagens, ícones e arquivos estáticos
-├── components/    # Componentes reutilizáveis
-├── layouts/       # Layouts principais da aplicação
-├── pages/         # Páginas do projeto
-├── routes/        # Configuração das rotas
-├── styles/        # Estilos globais
+├── assets/
+├── components/
+├── layouts/
+├── pages/
+├── routes/
+├── styles/
 └── main.tsx
 ```
 
 ---
 
-## ⚙️ Instalação e execução
+# ⚙️ Como executar o projeto
 
-### Clone o repositório
+## Clone o repositório
 
 ```bash
 git clone <url-do-repositorio>
 ```
 
-### Acesse a pasta
+## Acesse a pasta
 
 ```bash
 cd nova-fauna
 ```
 
-### Instale as dependências
+## Instale as dependências
 
 ```bash
 npm install
 ```
 
-### Execute o projeto
+## Execute o projeto
 
 ```bash
 npm run dev
 ```
 
-O projeto estará disponível em:
+---
+
+# 🛠 Scripts disponíveis
 
 ```bash
-http://localhost:5173
+npm run dev
+npm run build
+npm run preview
 ```
 
 ---
 
-## 🛠 Scripts disponíveis
+# 🚧 Status do projeto
 
-```bash
-npm run dev       # Inicia ambiente de desenvolvimento
-npm run build     # Gera build de produção
-npm run preview   # Visualiza build localmente
-```
+<div align="center">
 
----
+### Em desenvolvimento
 
-## 📌 Status do projeto
-
-🚧 Em desenvolvimento
+</div>
 
 ---
 
-## 💚 Inspiração
+# 💚 Inspiração
 
-O projeto nasceu da ideia de unir tecnologia, design e conscientização ambiental em uma experiência moderna e educativa.
+O projeto nasceu da ideia de transformar tecnologia e design em uma experiência educativa sobre o universo dos pets não convencionais.
 
 ---
 
-## 📄 Licença
+<div align="center">
 
-Este projeto está sob a licença MIT.
+## 🐾 Nova Fauna
+
+Feito com 💚 usando React + TypeScript + Tailwind CSS por [Chokiwars](https://github.com/Chokiwars/Nova-Fauna/)
+
+</div>
