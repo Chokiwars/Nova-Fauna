@@ -1,6 +1,6 @@
 <div align="center">
 
-
+<img src="./src/assets/NovaFauna-logo.png" alt="Nova Fauna Banner" width="100%" />
 
 <br/>
 <br/>
