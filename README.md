@@ -2,23 +2,25 @@
 
 <img src="./src/assets/NovaFauna-logo.png" alt="Nova Fauna Banner" width="100%" />
 
-<br/>
-<br/>
+<br>
 
-# 🐾 <span style="color:#22c55e">Nova Fauna</span>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=38&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=800&lines=🐾+Nova+Fauna" />
 
-### 🌿 Conscientização e adoção responsável de pets não convencionais
+<br>
 
-<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=1&pause=1000&color=86EFAC&center=true&vCenter=true&width=1000&lines=🌿+Conscientização+e+adoção+responsável+de+pets+não+convencionais" />
+
+<br>
+<br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-14532d?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-166534?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-15803d?style=for-the-badge&logo=tailwind-css&logoColor=67E8F9" />
+  <img src="https://img.shields.io/badge/Vite-22c55e?style=for-the-badge&logo=vite&logoColor=white" />
 </p>
 
-<br/>
+<br>
 
 > ### 🍃 Projeto frontend desenvolvido para promover educação, conscientização e incentivo à posse responsável de animais exóticos e não convencionais.
 
@@ -26,7 +28,9 @@
 
 ---
 
-# 🌱 Sobre o projeto
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=600&lines=🌱+Sobre+o+Projeto" />
+</p>
 
 <div align="center">
 
@@ -34,7 +38,7 @@ O **Nova Fauna** foi criado com a proposta de unir tecnologia, design e conscien
 
 </div>
 
-<br/>
+<br>
 
 <div align="center">
 
@@ -46,7 +50,9 @@ O **Nova Fauna** foi criado com a proposta de unir tecnologia, design e conscien
 
 ---
 
-# 🚀 Tecnologias utilizadas
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=700&lines=🚀+Tecnologias+Utilizadas" />
+</p>
 
 <div align="center">
 
@@ -62,7 +68,9 @@ O **Nova Fauna** foi criado com a proposta de unir tecnologia, design e conscien
 
 ---
 
-# 📁 Estrutura do projeto
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=700&lines=📁+Estrutura+do+Projeto" />
+</p>
 
 ```bash
 src/
@@ -77,18 +85,14 @@ src/
 
 ---
 
-# ⚙️ Como executar o projeto
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=700&lines=⚙️+Como+Executar" />
+</p>
 
 ## 📥 Clone o repositório
 
 ```bash
-git clone https://github.com/Chokiwars/Nova-Fauna.git
-```
-
-## 📂 Acesse a pasta
-
-```bash
-cd nova-fauna
+git clone <https://github.com/Chokiwars/Nova-Fauna/>
 ```
 
 ## 📦 Instale as dependências
@@ -105,17 +109,9 @@ npm run dev
 
 ---
 
-# 🛠 Scripts disponíveis
-
-```bash
-npm run dev
-npm run build
-npm run preview
-```
-
----
-
-# 🚧 Status do projeto
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=500&lines=🚧+Status" />
+</p>
 
 <div align="center">
 
@@ -125,7 +121,9 @@ npm run preview
 
 ---
 
-# 💚 Inspiração
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=1&pause=2000&color=22C55E&center=true&vCenter=true&repeat=false&width=700&lines=💚+Inspiração" />
+</p>
 
 <div align="center">
 
@@ -137,14 +135,12 @@ npm run preview
 
 <div align="center">
 
-## 🌿 Nova Fauna
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=86EFAC&center=true&vCenter=true&width=700&lines=🌿+Nova+Fauna;Feito+com+💚+por+Chokiwars" />
 
-Feito com 💚 usando React + TypeScript + Tailwind CSS por [Chokiwars](https://github.com/Chokiwars/)
-
-<br/>
+<br>
 
 <a href="https://github.com/Chokiwars/Nova-Fauna">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/GitHub-14532d?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
