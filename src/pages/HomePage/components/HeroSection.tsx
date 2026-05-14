@@ -42,7 +42,7 @@ export function HeroSection() {
     }, [])
 
     return (
-        <section className="relative -mt-8 flex min-h-[calc(100vh-80px)] items-center overflow-hidden rounded-b-3xl">
+        <section className="relative flex min-h-[calc(100vh-80px)] items-center overflow-hidden rounded-b-3xl">
 
             {/* Background Images */}
             {heroImages.map((image, index) => (
