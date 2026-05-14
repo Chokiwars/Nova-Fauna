@@ -139,7 +139,7 @@ npm run preview
 
 ## 🌿 Nova Fauna
 
-Feito com 💚 usando React + TypeScript + Tailwind CSS
+Feito com 💚 usando React + TypeScript + Tailwind CSS por [Chokiwars](https://github.com/Chokiwars/)
 
 <br/>
 
