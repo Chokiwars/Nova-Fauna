@@ -1,73 +1,103 @@
-# React + TypeScript + Vite
+# 🐾 Nova Fauna
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Nova Fauna** é um projeto frontend desenvolvido com foco em conscientização, educação e incentivo à posse responsável de pets não convencionais.
 
-Currently, two official plugins are available:
+A proposta do projeto é oferecer uma experiência visual moderna, imersiva e informativa, utilizando animações, design responsivo e uma interface intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎨 Objetivos do projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Criar uma interface moderna e responsiva
+- Promover conscientização sobre animais exóticos e silvestres
+- Incentivar adoção e cuidados responsáveis
+- Explorar animações e experiências visuais imersivas
+- Praticar arquitetura frontend baseada em componentes
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📁 Estrutura do projeto
+
+```bash
+src/
+├── assets/        # Imagens, ícones e arquivos estáticos
+├── components/    # Componentes reutilizáveis
+├── layouts/       # Layouts principais da aplicação
+├── pages/         # Páginas do projeto
+├── routes/        # Configuração das rotas
+├── styles/        # Estilos globais
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Instalação e execução
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Clone o repositório
+
+```bash
+git clone <url-do-repositorio>
 ```
+
+### Acesse a pasta
+
+```bash
+cd nova-fauna
+```
+
+### Instale as dependências
+
+```bash
+npm install
+```
+
+### Execute o projeto
+
+```bash
+npm run dev
+```
+
+O projeto estará disponível em:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🛠 Scripts disponíveis
+
+```bash
+npm run dev       # Inicia ambiente de desenvolvimento
+npm run build     # Gera build de produção
+npm run preview   # Visualiza build localmente
+```
+
+---
+
+## 📌 Status do projeto
+
+🚧 Em desenvolvimento
+
+---
+
+## 💚 Inspiração
+
+O projeto nasceu da ideia de unir tecnologia, design e conscientização ambiental em uma experiência moderna e educativa.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
