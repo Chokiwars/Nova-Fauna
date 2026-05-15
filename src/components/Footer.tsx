@@ -7,8 +7,6 @@ import {
 
 import { BsGithub } from 'react-icons/bs'
 
-import logo from '../assets/NovaFauna-logo.png'
-
 export function Footer() {
     return (
         <footer
@@ -28,20 +26,9 @@ export function Footer() {
                     <div className="lg:col-span-2">
                         <div className="flex items-center gap-5">
 
-                            <div className="rounded-3xl border border-primary/20 bg-primary/10 p-3 backdrop-blur-md">
-                                <img
-                                    src={logo}
-                                    alt="Nova Fauna"
-                                    className="h-16 w-16 object-contain"
-                                />
-                            </div>
-
                             <div>
-                                <h2 className="text-5xl font-black tracking-wide text-white">
-                                    Nova
-                                    <span className="text-primary">
-                                        {' '}Fauna
-                                    </span>
+                                <h2 className="text-5xl font-black tracking-wide text-primary">
+                                    Nova Fauna
                                 </h2>
 
                                 <p className="mt-2 uppercase tracking-[0.3em] text-zinc-500">
