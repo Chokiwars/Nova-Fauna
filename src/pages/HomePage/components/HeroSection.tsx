@@ -83,7 +83,7 @@ export function HeroSection() {
                 <p className="mt-8 max-w-2xl text-left text-lg leading-8 text-zinc-300">
                     Informações sobre serpentes, lagartos, habitats naturais,
                     criadouros responsáveis e curiosidades fascinantes sobre
-                    o mundo dos animais não convencionais.
+                    o mundo dos pets não convencionais.
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-4">

@@ -50,7 +50,7 @@ const animals = [
     },
 
     {
-        name: 'Tarântula',
+        name: 'Caranguejeiras',
         origin: 'América do Sul',
         type: 'Aracnídeos',
         image:
