@@ -61,11 +61,14 @@ export function Header() {
 
                     {/* Animais */}
                     <div className="group relative">
-                        <button className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary">
+                        <Link
+                            to="/animais"
+                            className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary"
+                        >
                             Animais
 
                             <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
-                        </button>
+                        </Link>
 
                         <div
                             className="
@@ -79,36 +82,54 @@ export function Header() {
                         >
                             <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/animais/serpentes"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Serpentes
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/animais/lagartos"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Lagartos
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/animais/anfibios"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Anfíbios
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/animais/aracnideos"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Aracnídeos
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/animais/aves"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Aves
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
                     {/* Criadouros */}
                     <div className="group relative">
-                        <button className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary">
+                        <Link
+                            to="/criadouros"
+                            className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary"
+                        >
                             Criadouros
 
                             <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
-                        </button>
+                        </Link>
 
                         <div
                             className="
@@ -122,32 +143,47 @@ export function Header() {
                         >
                             <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/criadouros/legalizados"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Legalizados
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/criadouros/parceiros"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Parceiros
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/criadouros/bem-estar-animal"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Bem-estar animal
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/criadouros/compra-responsavel"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Compra responsável
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
                     {/* Habitats */}
                     <div className="group relative">
-                        <button className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary">
+                        <Link
+                            to="/habitats"
+                            className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary"
+                        >
                             Habitats
 
                             <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
-                        </button>
+                        </Link>
 
                         <div
                             className="
@@ -161,32 +197,47 @@ export function Header() {
                         >
                             <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/habitats/terrarios"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Terrários
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/habitats/aquaterrarios"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Aquaterrários
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/habitats/aquarios"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Aquários
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/habitats/ambientacao-natural"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Ambientação natural
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
                     {/* Guias */}
                     <div className="group relative">
-                        <button className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary">
+                        <Link
+                            to="/guias"
+                            className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-300 transition hover:text-primary"
+                        >
                             Guias
 
                             <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
-                        </button>
+                        </Link>
 
                         <div
                             className="
@@ -200,21 +251,33 @@ export function Header() {
                         >
                             <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/guias/alimentacao"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Alimentação
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/guias/cuidados-basicos"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Cuidados básicos
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/guias/manejo"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Manejo
-                                </button>
+                                </Link>
 
-                                <button className="w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary">
+                                <Link
+                                    to="/guias/curiosidades"
+                                    className="block w-full rounded-xl px-4 py-3 text-left text-sm text-zinc-300 transition hover:bg-primary/10 hover:text-primary"
+                                >
                                     Curiosidades
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

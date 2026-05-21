@@ -4,10 +4,13 @@ import {
     Heart,
     Leaf,
 } from 'lucide-react'
-
+import { useNavigate } from 'react-router-dom'
 import { BsGithub } from 'react-icons/bs'
 
+
 export function Footer() {
+    const navigate = useNavigate()
+
     return (
         <footer
             id="footer"
@@ -76,19 +79,35 @@ export function Footer() {
                         </h3>
 
                         <div className="mt-6 flex flex-col gap-4">
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/animais')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Animais
                             </button>
 
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/habitats')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Habitats
                             </button>
 
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/guias')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Guias
                             </button>
 
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/criadouros')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Criadouros
                             </button>
                         </div>
@@ -101,21 +120,37 @@ export function Footer() {
                         </h3>
 
                         <div className="mt-6 flex flex-col gap-4">
-                            <button className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/posse-responsavel')
+                                }}
+                                className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
                                 <Leaf className="h-4 w-4" />
                                 Posse responsável
                             </button>
 
-                            <button className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/bem-estar-animal')
+                                }}
+                                className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
                                 <Heart className="h-4 w-4" />
                                 Bem-estar animal
                             </button>
 
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/politica-de-privacidade')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Política de privacidade
                             </button>
 
-                            <button className="text-left text-zinc-400 transition hover:text-primary">
+                            <button
+                                onClick={() => {
+                                    navigate('/termos-de-uso')
+                                }}
+                                className="text-left text-zinc-400 transition hover:text-primary">
                                 Termos de uso
                             </button>
                         </div>

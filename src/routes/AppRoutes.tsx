@@ -14,7 +14,7 @@ export function AppRoutes() {
             <Routes>
                 <Route path="/" element={<MainLayout />}>
                     <Route index element={<HomePage />} />
-                    <Route path="animals" element={<AnimalsPage />} />
+                    <Route path="/animais" element={<AnimalsPage />} />
 
                     {/* <Route path="habitats" element={<Habitats />} />
                     <Route path="breeders" element={<Breeders />} /> */}
