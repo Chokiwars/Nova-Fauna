@@ -6,7 +6,7 @@ export function BallPythonHero() {
 
             {/* Background */}
             <img
-                src="https://images.pexels.com/photos/36585274/pexels-photo-36585274.jpeg"
+                src=""
                 alt="Ball Python"
                 className="absolute inset-0 h-full w-full object-cover opacity-30"
             />
