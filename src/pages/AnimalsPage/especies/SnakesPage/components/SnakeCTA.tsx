@@ -33,13 +33,7 @@ export function SnakeCTA() {
 
                     {/* Button */}
                     <button
-                        onClick={() => {
-                            document
-                                .getElementById('snake-species')
-                                ?.scrollIntoView({
-                                    behavior: 'smooth',
-                                })
-                        }}
+                        onClick={() => window.location.href = '/animais/serpentes/especies'}
                         className="
                             mt-12 rounded-full border border-primary/40
                             bg-primary/10 px-8 py-4
