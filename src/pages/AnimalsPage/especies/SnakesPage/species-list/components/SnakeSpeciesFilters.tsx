@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import {
     Compass,
     Leaf,
@@ -52,8 +50,15 @@ const filters = [
     },
 ]
 
-export function SnakeSpeciesFilters() {
-    const [activeFilter, setActiveFilter] = useState('Todas')
+type SnakeSpeciesFiltersProps = {
+    activeFilter: string
+    setActiveFilter: (filter: string) => void
+}
+
+export function SnakeSpeciesFilters({
+    activeFilter,
+    setActiveFilter,
+}: SnakeSpeciesFiltersProps) {
 
     return (
         <section className="bg-black px-6">

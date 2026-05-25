@@ -1,14 +1,20 @@
 import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
+type SnakeSpeciesCatalogProps = {
+    activeFilter: string
+}
+
 const snakes = [
-    // =========================
-    // JIBOIAS BRASILEIRAS
-    // =========================
     {
         name: 'BCC',
         scientificName: 'Boa constrictor constrictor',
         category: 'Jiboia brasileira',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'A famosa jiboia de cauda vermelha, conhecida pelo porte robusto, comportamento tranquilo e coloração marcante.',
         image:
@@ -20,10 +26,15 @@ const snakes = [
         name: 'BCA',
         scientificName: 'Boa constrictor amarali',
         category: 'Jiboia brasileira',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Subespécie brasileira muito apreciada por apresentar tamanho moderado e excelente manejo.',
         image:
-            'https://images.pexels.com/photos/80474/snake-rainbow-boa-reptile-scale-80474.jpeg',
+            '',
         path: '/animais/serpentes/especies/bca',
     },
 
@@ -31,10 +42,14 @@ const snakes = [
         name: 'BCO',
         scientificName: 'Boa constrictor occidentalis',
         category: 'Jiboia exótica',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+        ],
         description:
             'Conhecida pela coloração escura e contrastes impressionantes, sendo extremamente admirada no hobby.',
         image:
-            'https://images.pexels.com/photos/751689/pexels-photo-751689.jpeg',
+            '',
         path: '/animais/serpentes/especies/bco',
     },
 
@@ -42,10 +57,15 @@ const snakes = [
         name: 'BCI',
         scientificName: 'Boa imperator',
         category: 'Jiboia exótica',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Uma das jiboias mais populares do mundo, muito presente entre criadores devido ao comportamento dócil.',
         image:
-            'https://images.pexels.com/photos/34426/snake-rainbow-boa-reptile-scale.jpg',
+            '',
         path: '/animais/serpentes/especies/bci',
     },
 
@@ -56,6 +76,11 @@ const snakes = [
         name: 'Rainbow Boa Amazônica',
         scientificName: 'Epicrates cenchria cenchria',
         category: 'Epicrates',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Arborícolas',
+        ],
         description:
             'Famosa pelo brilho iridescente das escamas e aparência extremamente exótica.',
         image:
@@ -67,6 +92,11 @@ const snakes = [
         name: 'Rainbow Boa da Caatinga',
         scientificName: 'Epicrates assisi',
         category: 'Epicrates',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Arborícolas',
+        ],
         description:
             'Espécie brasileira adaptada ao clima semiárido, muito apreciada pela beleza e rusticidade.',
         image:
@@ -78,10 +108,15 @@ const snakes = [
         name: 'Rainbow Boa da Mata Atlântica',
         scientificName: 'Epicrates crassus',
         category: 'Epicrates',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Arborícolas',
+        ],
         description:
             'Espécie robusta e muito admirada por apresentar padrões únicos e comportamento tranquilo.',
         image:
-            'https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg',
+            '',
         path: '/animais/serpentes/especies/epicrates-crassus',
     },
 
@@ -92,10 +127,13 @@ const snakes = [
         name: 'Sucuri-verde',
         scientificName: 'Eunectes murinus',
         category: 'Sucuri',
+        tags: [
+            'Semi-aquáticas',
+        ],
         description:
             'A maior serpente das Américas, conhecida pelo tamanho impressionante e hábitos semi-aquáticos.',
         image:
-            'https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg',
+            '',
         path: '/animais/serpentes/especies/sucuri-verde',
     },
 
@@ -103,10 +141,13 @@ const snakes = [
         name: 'Sucuri-amarela',
         scientificName: 'Eunectes notaeus',
         category: 'Sucuri',
+        tags: [
+            'Semi-aquáticas',
+        ],
         description:
             'Menor que a sucuri-verde, mas extremamente bela e popular entre admiradores de grandes serpentes.',
         image:
-            'https://images.pexels.com/photos/13574639/pexels-photo-13574639.jpeg',
+            '',
         path: '/animais/serpentes/especies/sucuri-amarela',
     },
 
@@ -117,10 +158,14 @@ const snakes = [
         name: 'Caninana',
         scientificName: 'Spilotes pullatus',
         category: 'Colubrídeo',
+        tags: [
+            'Colubrídeos',
+            'Arborícolas',
+        ],
         description:
             'Espécie extremamente ativa, inteligente e conhecida pela coloração preta e amarela.',
         image:
-            'https://images.pexels.com/photos/15542641/pexels-photo-15542641.jpeg',
+            '',
         path: '/animais/serpentes/especies/caninana',
     },
 
@@ -128,10 +173,14 @@ const snakes = [
         name: 'Muçurana',
         scientificName: 'Clelia clelia',
         category: 'Colubrídeo',
+        tags: [
+            'Colubrídeos',
+            'Terrestres',
+        ],
         description:
             'Predadora de outras serpentes e extremamente importante para o equilíbrio ecológico.',
         image:
-            'https://images.pexels.com/photos/14465865/pexels-photo-14465865.jpeg',
+            '',
         path: '/animais/serpentes/especies/mucurana',
     },
 
@@ -139,6 +188,9 @@ const snakes = [
         name: 'Periquitamboia',
         scientificName: 'Corallus caninus',
         category: 'Arborícola',
+        tags: [
+            'Arborícolas',
+        ],
         description:
             'Serpente arborícola famosa pela coloração verde vibrante e postura elegante.',
         image:
@@ -153,17 +205,27 @@ const snakes = [
         name: 'Ball Python',
         scientificName: 'Python regius',
         category: 'Python',
+        tags: [
+            'Pythons',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Uma das espécies mais populares do mundo devido ao comportamento calmo e enorme variedade de morphs.',
         image:
             'https://images.pexels.com/photos/36585274/pexels-photo-36585274.jpeg',
-        path: '/animais/serpentes/especies/ball-python',
+        path: '/animais/serpentes/ball-python',
     },
 
     {
         name: 'California Kingsnake',
         scientificName: 'Lampropeltis californiae',
         category: 'Kingsnake',
+        tags: [
+            'Colubrídeos',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Espécie extremamente resistente e muito procurada por iniciantes no hobby.',
         image:
@@ -175,10 +237,15 @@ const snakes = [
         name: 'Mexican Black Kingsnake',
         scientificName: 'Lampropeltis getula nigrita',
         category: 'Kingsnake',
+        tags: [
+            'Colubrídeos',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Kingsnake completamente negra e muito valorizada pela aparência elegante.',
         image:
-            'https://images.pexels.com/photos/751689/pexels-photo-751689.jpeg',
+            '',
         path: '/animais/serpentes/especies/mexican-black-kingsnake',
     },
 
@@ -186,10 +253,15 @@ const snakes = [
         name: 'Western Hognose',
         scientificName: 'Heterodon nasicus',
         category: 'Hognose',
+        tags: [
+            'Colubrídeos',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Pequena, curiosa e conhecida pelo focinho arrebitado e comportamento dramático.',
         image:
-            'https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg',
+            '',
         path: '/animais/serpentes/especies/western-hognose',
     },
 
@@ -197,10 +269,14 @@ const snakes = [
         name: 'Bullsnake',
         scientificName: 'Pituophis catenifer sayi',
         category: 'Gopher Snake',
+        tags: [
+            'Colubrídeos',
+            'Terrestres',
+        ],
         description:
             'Espécie grande, extremamente ativa e conhecida pelo comportamento defensivo marcante.',
         image:
-            'https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg',
+            '',
         path: '/animais/serpentes/especies/bullsnake',
     },
 
@@ -208,10 +284,14 @@ const snakes = [
         name: 'Burmese Python',
         scientificName: 'Python bivittatus',
         category: 'Python',
+        tags: [
+            'Pythons',
+            'Terrestres',
+        ],
         description:
             'Uma das maiores serpentes mantidas em cativeiro, famosa pelo tamanho impressionante.',
         image:
-            'https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg',
+            '',
         path: '/animais/serpentes/especies/burmese-python',
     },
 
@@ -219,21 +299,35 @@ const snakes = [
         name: 'Kenyan Sand Boa',
         scientificName: 'Eryx colubrinus',
         category: 'Boa exótica',
+        tags: [
+            'Jiboias',
+            'Terrestres',
+            'Iniciantes',
+        ],
         description:
             'Espécie fossorial muito querida pelo visual único e manejo simples.',
         image:
-            'https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg',
+            '',
         path: '/animais/serpentes/especies/kenyan-sand-boa',
     },
 ]
 
-export function SnakeSpeciesCatalog() {
+export function SnakeSpeciesCatalog({
+    activeFilter,
+}: SnakeSpeciesCatalogProps) {
+    const filteredSnakes =
+        activeFilter === 'Todas'
+            ? snakes
+            : snakes.filter((snake) =>
+                snake.tags?.includes(activeFilter)
+            );
+
     return (
         <section className="bg-black px-6 py-20">
             <div className="mx-auto max-w-7xl">
 
                 <div className="space-y-10">
-                    {snakes.map((snake, index) => (
+                    {filteredSnakes.map((snake, index) => (
                         <article
                             key={snake.name}
                             className="
@@ -247,7 +341,7 @@ export function SnakeSpeciesCatalog() {
                             {/* Image */}
                             <div
                                 className={`
-                                    relative h-[380px] overflow-hidden
+                                    relative h-[400px] overflow-hidden
                                     ${index % 2 !== 0 ? 'lg:order-2' : ''}
                                 `}
                             >
