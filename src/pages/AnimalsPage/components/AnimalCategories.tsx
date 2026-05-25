@@ -17,7 +17,7 @@ const categories = [
         icon: Shell,
         image:
             'https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg',
-        path: '/animals/snakes',
+        path: '/animais/serpentes',
     },
 
     {
@@ -27,7 +27,7 @@ const categories = [
         icon: Rat,
         image:
             'https://images.pexels.com/photos/751689/pexels-photo-751689.jpeg',
-        path: '/animals/lizards',
+        path: '/animais/lagardos',
     },
 
     {
@@ -37,7 +37,7 @@ const categories = [
         icon: Bug,
         image:
             'https://images.pexels.com/photos/17907408/pexels-photo-17907408.jpeg',
-        path: '/animals/arachnids',
+        path: '/animais/aracnideos',
     },
 
     {
@@ -47,7 +47,7 @@ const categories = [
         icon: Bird,
         image:
             'https://images.pexels.com/photos/4727714/pexels-photo-4727714.jpeg',
-        path: '/animals/birds',
+        path: '/animais/aves',
     },
 
     {
@@ -57,7 +57,7 @@ const categories = [
         icon: Waves,
         image:
             'https://images.pexels.com/photos/753249/pexels-photo-753249.jpeg',
-        path: '/animals/amphibians',
+        path: '/animais/anfibios',
     },
 
     {
@@ -67,7 +67,7 @@ const categories = [
         icon: Fish,
         image:
             'https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg',
-        path: '/animals/aquatics',
+        path: '/animais/aquaticos',
     },
 ]
 
