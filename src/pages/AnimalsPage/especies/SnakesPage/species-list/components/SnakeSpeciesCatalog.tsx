@@ -214,7 +214,7 @@ const snakes = [
             'Uma das espécies mais populares do mundo devido ao comportamento calmo e enorme variedade de morphs.',
         image:
             'https://images.pexels.com/photos/36585274/pexels-photo-36585274.jpeg',
-        path: '/animais/serpentes/especies/ball-python',
+        path: '/animais/serpentes/ball-python',
     },
 
     {
