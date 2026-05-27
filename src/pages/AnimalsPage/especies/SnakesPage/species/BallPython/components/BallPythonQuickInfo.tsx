@@ -3,6 +3,7 @@ import {
     TimerReset,
     Ruler,
     MoonStar,
+    ArrowRight,
 } from 'lucide-react'
 
 const infos = [
@@ -11,6 +12,7 @@ const infos = [
         title: 'Temperamento',
         description:
             'Conhecida pelo comportamento extremamente calmo e tolerante ao manejo.',
+        id: 'ball-python-temperament',
     },
 
     {
@@ -18,6 +20,7 @@ const infos = [
         title: 'Longevidade',
         description:
             'Pode viver mais de 25 anos quando mantida corretamente em cativeiro.',
+        id: 'ball-python-longevity',
     },
 
     {
@@ -25,6 +28,7 @@ const infos = [
         title: 'Tamanho',
         description:
             'Adultos costumam atingir entre 1,2m e 1,8m dependendo do sexo e genética.',
+        id: 'ball-python-size',
     },
 
     {
@@ -32,6 +36,7 @@ const infos = [
         title: 'Hábitos',
         description:
             'Espécie predominantemente noturna e terrestre.',
+        id: 'ball-python-habits',
     },
 ]
 
@@ -43,6 +48,7 @@ export function BallPythonQuickInfo() {
         >
             <div className="mx-auto max-w-7xl">
 
+                {/* Header */}
                 <div className="mb-16 max-w-3xl">
 
                     <span className="rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-primary">
@@ -60,32 +66,45 @@ export function BallPythonQuickInfo() {
                     </p>
                 </div>
 
+                {/* Cards */}
                 <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
                     {infos.map((info) => {
                         const Icon = info.icon
 
                         return (
-                            <article
+                            <button
                                 key={info.title}
+                                onClick={() => {
+                                    document
+                                        .getElementById(info.id)
+                                        ?.scrollIntoView({
+                                            behavior: 'smooth',
+                                        })
+                                }}
                                 className="
-                                    rounded-[2rem] border border-zinc-800
-                                    bg-black/40 p-8 transition duration-300
+                                    group rounded-[2rem] border border-zinc-800
+                                    bg-black/40 p-8 text-left
+                                    transition duration-300
                                     hover:-translate-y-2
                                     hover:border-primary/40
                                 "
                             >
+
+                                {/* Icon */}
                                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
                                     <Icon className="h-7 w-7" />
                                 </div>
 
-                                <h3 className="mt-8 text-2xl font-black text-white">
+                                {/* Title */}
+                                <h3 className="mt-8 text-2xl font-black text-white transition group-hover:text-primary">
                                     {info.title}
                                 </h3>
 
+                                {/* Description */}
                                 <p className="mt-5 leading-8 text-zinc-400">
                                     {info.description}
                                 </p>
-                            </article>
+                            </button>
                         )
                     })}
                 </div>

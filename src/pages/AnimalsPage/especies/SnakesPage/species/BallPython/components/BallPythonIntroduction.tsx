@@ -7,6 +7,7 @@ export function BallPythonIntroduction() {
 
             <div className="relative z-10 mx-auto max-w-7xl">
 
+                {/* Header */}
                 <div className="max-w-4xl">
 
                     <span className="rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.3em] text-primary">
@@ -17,7 +18,7 @@ export function BallPythonIntroduction() {
                         A serpente que conquistou o hobby mundial
                     </h2>
 
-                    <p className="mt-8 text-xl leading-9 text-zinc-400">
+                    <p className="mt-8 max-w-3xl text-2xl font-light leading-[1.9] text-zinc-300">
                         A Ball Python se tornou uma das espécies mais populares
                         entre tutores de pets não convencionais graças ao
                         comportamento extremamente dócil, facilidade de manejo e
@@ -25,9 +26,21 @@ export function BallPythonIntroduction() {
                     </p>
                 </div>
 
-                <div className="mt-20 grid gap-10 lg:grid-cols-2">
+                {/* Content */}
+                <div className="mt-20 grid gap-14 lg:grid-cols-2">
 
-                    <div className="rounded-[2rem] border border-primary/20 border-b-0 border-t-0 bg-gradient-to-b from-black via-primary/5 to-black p-10">
+                    {/* Left Card */}
+                    <div
+                        className="
+                            relative rounded-3xl
+                            border border-green-800
+                            border-b-0 border-t-0
+                            bg-gradient-to-b from-black via-primary/5 to-black
+                            p-10
+                            transition duration-500
+                            hover:border-primary/50
+                        "
+                    >
 
                         <div className="space-y-8 text-lg leading-9 text-zinc-400">
 
@@ -55,7 +68,18 @@ export function BallPythonIntroduction() {
                         </div>
                     </div>
 
-                    <div className="rounded-[2rem] border border-primary/20 border-b-0 border-t-0 bg-gradient-to-b from-black via-primary/5 to-black p-10">
+                    {/* Right Card */}
+                    <div
+                        className="
+                            relative rounded-3xl
+                            border border-green-800
+                            border-b-0 border-t-0
+                            bg-gradient-to-b from-black via-primary/5 to-black
+                            p-10
+                            transition duration-500
+                            hover:border-primary/50
+                        "
+                    >
 
                         <div className="space-y-8 text-lg leading-9 text-zinc-400">
 
