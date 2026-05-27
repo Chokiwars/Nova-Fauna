@@ -129,7 +129,7 @@ export function BallPythonHero() {
                     className="
                         w-full max-w-sm rounded-[2rem]
                         border border-primary/50
-                        bg-black/50 p-8 backdrop-blur-xl
+                        bg-black/10 p-8 backdrop-blur-sm
                     "
                 >
 
