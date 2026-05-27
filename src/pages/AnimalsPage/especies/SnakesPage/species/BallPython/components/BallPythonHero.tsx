@@ -50,7 +50,7 @@ export function BallPythonHero() {
             <img
                 src="https://images.pexels.com/photos/53140/snake-ball-python-python-regius-beauty-53140.jpeg?_gl=1*ij8k6w*_ga*MTE3OTgzNjY5Ni4xNzc5ODg0OTg2*_ga_8JE65Q40S6*czE3Nzk4ODQ5ODYkbzEkZzEkdDE3Nzk4ODUwMTMkajMzJGwwJGgw"
                 alt="Ball Python"
-                className="absolute inset-0 h-full w-full object-cover opacity-20"
+                className="absolute inset-0 h-full w-full object-cover opacity-50"
             />
 
             {/* Overlay */}
