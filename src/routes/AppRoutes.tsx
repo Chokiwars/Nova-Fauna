@@ -20,7 +20,7 @@ export function AppRoutes() {
                     <Route path="/animais" element={<AnimalsPage />} />
                     <Route path="/animais/serpentes" element={<SnakesPage />} />
                     <Route path="/animais/serpentes/especies" element={<SnakeSpeciesPage />} />
-                    <Route path="/animais/serpentes/ball-python" element={<BallPythonPage />} />
+                    <Route path="/animais/serpentes/python-regius" element={<BallPythonPage />} />
 
                     {/* <Route path="habitats" element={<Habitats />} />
                     <Route path="breeders" element={<Breeders />} /> */}
