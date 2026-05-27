@@ -9,7 +9,7 @@ const species = [
         category: 'Serpente',
         image:
             'https://images.pexels.com/photos/45246/green-tree-python-python-tree-python-green-45246.jpeg',
-        path: '/animals/snakes/python-regius',
+        path: '/animais/serpentes/python-regius',
     },
 
     {
@@ -18,7 +18,7 @@ const species = [
         category: 'Lagarto',
         image:
             'https://images.pexels.com/photos/751689/pexels-photo-751689.jpeg',
-        path: '/animals/lizards/leopard-gecko',
+        path: '/animais/lagartos/leopard-gecko',
     },
 
     {
@@ -27,7 +27,7 @@ const species = [
         category: 'Lagarto',
         image:
             'https://images.pexels.com/photos/35037783/pexels-photo-35037783.jpeg',
-        path: '/animals/lizards/pogona',
+        path: '/animais/lagartos/pogona',
     },
 
     {
@@ -36,7 +36,7 @@ const species = [
         category: 'Anfíbio',
         image:
             'https://images.pexels.com/photos/753249/pexels-photo-753249.jpeg',
-        path: '/animals/amphibians/milk-frog',
+        path: '/animais/anfibios/milk-frog',
     },
 ]
 

@@ -52,7 +52,7 @@ export function SnakeCTA() {
                     <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm uppercase tracking-[0.3em] text-zinc-500">
 
                         <Link
-                            to="/animais/serpentes/ball-python"
+                            to="/animais/serpentes/python-regius"
                             className="transition hover:text-primary"
                         >
                             Ball Python
