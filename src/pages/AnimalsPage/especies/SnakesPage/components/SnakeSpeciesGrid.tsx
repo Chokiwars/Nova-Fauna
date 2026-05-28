@@ -1,50 +1,75 @@
 import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const snakes = [
     {
         name: 'Ball Python',
+        scientificName: 'Python regius',
+        path: '/animais/serpentes/python-regius',
+
         description:
             'Conhecida pelo comportamento calmo e pela enorme variedade de morfologias, a Ball Python é uma das serpentes mais populares entre tutores iniciantes.',
+
         image:
             'https://images.pexels.com/photos/36585274/pexels-photo-36585274.jpeg?_gl=1*1ufyhjc*_ga*NDUxMTg5MDUwLjE3Nzk1ODEzODk.*_ga_8JE65Q40S6*czE3Nzk1ODM0NzckbzIkZzEkdDE3Nzk1ODM4MzAkajEkbDAkaDA.',
     },
 
     {
         name: 'Boa C. Constrictor',
+        scientificName: 'Boa constrictor constrictor',
+        path: '/animais/serpentes/boa-constrictor-constrictor',
+
         description:
             'A Boa Constrictor Constrictor é uma das serpentes mais icônicas entre os pets não convencionais, admirada pelo porte impressionante, comportamento tranquilo e padrões naturais exuberantes.',
+
         image:
             'https://images.pexels.com/photos/19270195/pexels-photo-19270195.jpeg?_gl=1*122uwn1*_ga*NDUxMTg5MDUwLjE3Nzk1ODEzODk.*_ga_8JE65Q40S6*czE3Nzk1ODM0NzckbzIkZzEkdDE3Nzk1ODM3NzIkajU5JGwwJGgw',
     },
 
     {
         name: 'Rainbow Boa',
+        scientificName: 'Epicrates cenchria',
+        path: '/animais/serpentes/epicrates-cenchria',
+
         description:
             'Famosa pelo brilho iridescente das escamas, a Rainbow Boa impressiona pela beleza e pelo visual exótico.',
+
         image:
             'https://images.pexels.com/photos/34426/snake-rainbow-boa-reptile-scale.jpg',
     },
 
     {
         name: 'King Snake',
+        scientificName: 'Lampropeltis getula',
+        path: '/animais/serpentes/lampropeltis-getula',
+
         description:
             'Espécie resistente, ativa e extremamente curiosa, muito apreciada por criadores devido à facilidade de manejo.',
+
         image:
             'https://images.pexels.com/photos/13574639/pexels-photo-13574639.jpeg?_gl=1*10wc9ol*_ga*NDUxMTg5MDUwLjE3Nzk1ODEzODk.*_ga_8JE65Q40S6*czE3Nzk1ODM0NzckbzIkZzEkdDE3Nzk1ODM5MzIkajIzJGwwJGgw',
     },
 
     {
         name: 'Milk Snake',
+        scientificName: 'Lampropeltis triangulum',
+        path: '/animais/serpentes/lampropeltis-triangulum',
+
         description:
             'Reconhecida pelos padrões coloridos impressionantes, a Milk Snake combina beleza, atividade e comportamento interessante.',
+
         image:
             'https://images.pexels.com/photos/14465865/pexels-photo-14465865.jpeg?_gl=1*15yzitq*_ga*NDUxMTg5MDUwLjE3Nzk1ODEzODk.*_ga_8JE65Q40S6*czE3Nzk1ODM0NzckbzIkZzEkdDE3Nzk1ODM5ODMkajQxJGwwJGgw',
     },
 
     {
         name: 'Periquitamboia',
+        scientificName: 'Corallus caninus',
+        path: '/animais/serpentes/corallus-caninus',
+
         description:
             'Conhecida pela coloração vibrante em tons de verde, a Periquitamboia chama atenção pelo visual exótico e pelos hábitos arborícolas fascinantes.',
+
         image:
             'https://images.pexels.com/photos/15542641/pexels-photo-15542641.jpeg?_gl=1*jpceel*_ga*NDUxMTg5MDUwLjE3Nzk1ODEzODk.*_ga_8JE65Q40S6*czE3Nzk1ODM0NzckbzIkZzEkdDE3Nzk1ODQwNzIkajE0JGwwJGgw',
     },
@@ -125,23 +150,27 @@ export function SnakeSpeciesGrid() {
                                     {snake.name}
                                 </h3>
 
+                                <p className="text-sm italic tracking-wide text-white/50">
+                                    {snake.scientificName}
+                                </p>
+
                                 <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
                                     {snake.description}
                                 </p>
 
                                 {/* Button */}
-                                <button
+                                <Link
+                                    to={snake.path}
                                     className="
-                        mt-10 flex items-center gap-3
-                        text-sm font-semibold uppercase
-                        tracking-[0.2em] text-primary
-                        transition hover:text-white
-                    "
+                                        mt-10 flex items-center gap-3
+                                        text-sm font-semibold uppercase
+                                        tracking-[0.2em] text-primary
+                                        transition hover:text-white"
                                 >
                                     Conheça melhor
 
                                     <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
-                                </button>
+                                </Link>
                             </div>
                         </article>
                     ))}
