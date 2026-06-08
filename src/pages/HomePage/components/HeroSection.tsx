@@ -42,7 +42,8 @@ export function HeroSection() {
     }, [])
 
     return (
-        <section className="relative flex min-h-[calc(100vh-80px)] items-center overflow-hidden rounded-b-3xl">
+        <section
+            className="relative flex min-h-[85vh] md:min-h-[calc(100vh-80px)] items-center overflow-hidden rounded-b-3xl">
 
             {/* Background Images */}
             {heroImages.map((image, index) => (
@@ -67,13 +68,13 @@ export function HeroSection() {
             {/* Conteúdo */}
             <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-start px-6">
 
-                <span className="mb-6 flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-5 py-2 text-sm font-medium text-primary backdrop-blur-md">
+                <span className="mb-8 flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-2 text-xs font-medium text-primary backdrop-blur-md sm:text-sm">
                     <Shell className="h-4 w-4" />
                     Explore o universo dos pets não convencionais
                 </span>
 
-                <h1 className="max-w-4xl text-left text-5xl font-black leading-tight text-white md:text-7xl">
-                    Descubra espécies fora 
+                <h1 className="max-w-4xl text-left text-3xl font-black leading-tight text-white sm:text-4xl md:text-7xl">
+                    Descubra espécies fora
                     <span className="text-primary drop-shadow-[0_0_25px_rgba(34,197,94,0.45)]">
                         {' '}do comum{' '}
                     </span>
@@ -86,7 +87,7 @@ export function HeroSection() {
                     o mundo dos pets não convencionais.
                 </p>
 
-                <div className="mt-10 flex flex-wrap gap-4">
+                <div className="mt-10 flex flex-wrap gap-8">
                     <button className="rounded-2xl bg-primary px-8 py-4 text-lg font-semibold text-black transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(34,197,94,0.35)]">
                         Explorar espécies
                     </button>
@@ -97,7 +98,7 @@ export function HeroSection() {
                 </div>
 
                 {/* Stats */}
-                <div className="mt-16 flex flex-wrap gap-10">
+                <div className="mt-12 grid w-full grid-cols-3 gap-4 md:mt-16 md:flex md:flex-wrap md:gap-10">
                     <div>
                         <h2 className="text-4xl font-black text-primary">
                             120+
