@@ -50,7 +50,7 @@ export function AboutSection() {
                     </h2>
 
                     <p className="mt-8 max-w-2xl text-lg leading-8 text-zinc-400">
-                        A Nova Fauna conecta informação, curiosidade e paixão
+                        A Nova Fauna conecta informação, curiosidades e paixão
                         pelo universo dos animais silvestres e exóticos,
                         oferecendo uma experiência moderna para quem deseja
                         conhecer espécies fascinantes e que podem ser adquiridas

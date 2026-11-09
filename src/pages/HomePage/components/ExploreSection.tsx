@@ -6,7 +6,7 @@ const topics = [
     },
 
     {
-        title: 'Jibóias',
+        title: 'Jiboias',
         image:
             'https://images.pexels.com/photos/31719634/pexels-photo-31719634.jpeg?_gl=1*1fr7ych*_ga*MTg4Nzk0MzMzMy4xNzc4NjczOTg5*_ga_8JE65Q40S6*czE3Nzg2ODM4NDEkbzQkZzEkdDE3Nzg2ODM4NDkkajUyJGwwJGgw',
     },
