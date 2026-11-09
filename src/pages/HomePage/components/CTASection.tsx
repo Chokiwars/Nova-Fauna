@@ -1,4 +1,4 @@
-import { ArrowRight, ShieldCheck } from 'lucide-react'
+import { ArrowRight, Link, ShieldCheck } from 'lucide-react'
 
 export function CTASection() {
     return (
@@ -48,11 +48,14 @@ export function CTASection() {
 
                 {/* Buttons */}
                 <div className="mt-12 flex flex-wrap items-center justify-center gap-5">
-                    <button className="group flex items-center gap-3 rounded-2xl bg-primary px-8 py-4 text-lg font-semibold text-black transition duration-300 hover:scale-105 hover:shadow-[0_0_35px_rgba(34,197,94,0.35)]">
+                    <Link
+                        to="/animais"
+                        className="group flex items-center gap-3 rounded-2xl bg-primary px-8 py-4 text-lg font-semibold text-black transition duration-300 hover:scale-105 hover:shadow-[0_0_35px_rgba(34,197,94,0.35)]"
+                    >
                         Explorar espécies
 
                         <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
-                    </button>
+                    </Link>
 
                     <button className="rounded-2xl border border-zinc-700 bg-black/40 px-8 py-4 text-lg font-semibold text-white backdrop-blur-md transition hover:border-primary hover:bg-primary/10">
                         Conhecer criadouros
