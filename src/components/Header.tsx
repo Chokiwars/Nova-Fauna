@@ -224,7 +224,7 @@ export function Header() {
                                 group-hover:opacity-100
                             "
                         >
-                            <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
+                            {/* <div className="overflow-hidden rounded-2xl border border-primary/20 bg-black/70 p-3 shadow-2xl backdrop-blur-xl">
 
                                 <Link
                                     to="/habitats/terrarios"
@@ -253,7 +253,7 @@ export function Header() {
                                 >
                                     Ambientação natural
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
