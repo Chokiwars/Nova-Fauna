@@ -8,6 +8,7 @@ const snakes = [
         path: '/animais/serpentes/python-regius',
         description:
             'Conhecida pelo comportamento calmo e pela enorme variedade de morfologias, a Ball Python é uma das serpentes mais populares entre tutores iniciantes.',
+
         image:
             'https://images.pexels.com/photos/36585274/pexels-photo-36585274.jpeg',
     },
@@ -18,6 +19,7 @@ const snakes = [
         path: '/animais/serpentes/boa-constrictor-constrictor',
         description:
             'A Boa Constrictor Constrictor é uma das serpentes mais icônicas entre os pets não convencionais, admirada pelo porte impressionante, comportamento tranquilo e padrões naturais exuberantes.',
+
         image:
             'https://images.pexels.com/photos/19270195/pexels-photo-19270195.jpeg',
     },
@@ -28,6 +30,7 @@ const snakes = [
         path: '/animais/serpentes/epicrates-cenchria',
         description:
             'Famosa pelo brilho iridescente das escamas, a Rainbow Boa impressiona pela beleza e pelo visual exótico.',
+
         image:
             'https://images.pexels.com/photos/34426/snake-rainbow-boa-reptile-scale.jpg',
     },
@@ -37,6 +40,7 @@ const snakes = [
         path: '/animais/serpentes/king-snake',
         description:
             'Espécie resistente, ativa e extremamente curiosa, muito apreciada por criadores devido à facilidade de manejo.',
+
         image:
             'https://images.pexels.com/photos/13574639/pexels-photo-13574639.jpeg',
     },
@@ -46,6 +50,7 @@ const snakes = [
         path: '/animais/serpentes/milk-snake',
         description:
             'Reconhecida pelos padrões coloridos impressionantes, a Milk Snake combina beleza, atividade e comportamento interessante.',
+
         image:
             'https://images.pexels.com/photos/14465865/pexels-photo-14465865.jpeg',
     },
@@ -56,6 +61,7 @@ const snakes = [
         path: '/animais/serpentes/corallus-caninus',
         description:
             'Conhecida pela coloração vibrante em tons de verde, a Periquitamboia chama atenção pelo visual exótico e pelos hábitos arborícolas fascinantes.',
+
         image:
             'https://images.pexels.com/photos/15542641/pexels-photo-15542641.jpeg',
     },

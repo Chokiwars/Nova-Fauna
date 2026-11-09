@@ -23,14 +23,14 @@ export function Footer() {
             <div className="relative z-10 mx-auto max-w-7xl">
 
                 {/* Top Content */}
-                <div className="grid gap-14 lg:grid-cols-4">
+                <div className="grid gap-14 md:grid-cols-2 lg:grid-cols-4">
 
                     {/* Brand */}
-                    <div className="lg:col-span-2">
-                        <div className="flex items-center gap-5">
+                    <div className="text-center lg:col-span-2 lg:text-left">
+                        <div className="flex items-center justify-center gap-5 lg:justify-start">
 
                             <div>
-                                <h2 className="text-5xl font-black tracking-wide text-primary">
+                                <h2 className="text-4xl font-black tracking-wide text-primary sm:text-5xl">
                                     Nova Fauna
                                 </h2>
 
@@ -40,7 +40,7 @@ export function Footer() {
                             </div>
                         </div>
 
-                        <p className="mt-8 max-w-2xl text-lg leading-8 text-zinc-400">
+                        <p className="mx-auto mt-8 max-w-2xl text-base leading-7 text-zinc-400 sm:text-lg sm:leading-8 lg:mx-0">
                             Uma plataforma criada para apaixonados por
                             animais silvestres e pets não convencionais,
                             conectando informação, responsabilidade e
@@ -48,11 +48,11 @@ export function Footer() {
                         </p>
 
                         {/* Contact */}
-                        <div className="mt-8 flex flex-wrap gap-4">
+                        <div className="mt-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
 
                             <a
                                 href="mailto:beatrizandreosbezerra1@gmail.com"
-                                className="flex items-center gap-3 rounded-2xl border border-zinc-800 bg-black/40 px-5 py-3 text-zinc-300 backdrop-blur-md transition hover:border-primary hover:text-primary"
+                                className="flex items-center gap-2 rounded-2xl border border-zinc-800 bg-black/40 px-4 py-2 text-sm text-zinc-300 backdrop-blur-md transition hover:border-primary hover:text-primary"
                             >
                                 <Mail className="h-5 w-5" />
 
@@ -63,7 +63,7 @@ export function Footer() {
                                 href="https://github.com/Chokiwars"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="flex items-center gap-3 rounded-2xl border border-zinc-800 bg-black/40 px-5 py-3 text-zinc-300 backdrop-blur-md transition hover:border-primary hover:text-primary"
+                                className="flex items-center gap-2 rounded-2xl border border-zinc-800 bg-black/40 px-4 py-2 text-sm text-zinc-300 backdrop-blur-md transition hover:border-primary hover:text-primary"
                             >
                                 <BsGithub className="h-5 w-5" />
 
@@ -71,88 +71,90 @@ export function Footer() {
                             </a>
                         </div>
                     </div>
+                    <div className="grid grid-cols-2 gap-10 md:contents">
 
-                    {/* Navigation */}
-                    <div>
-                        <h3 className="text-lg font-bold text-white">
-                            Navegação
-                        </h3>
+                        {/* Navigation */}
+                        <div className="text-center md:text-left">
+                            <h3 className="text-lg font-bold text-white">
+                                Navegação
+                            </h3>
 
-                        <div className="mt-6 flex flex-col gap-4">
-                            <button
-                                onClick={() => {
-                                    navigate('/animais')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Animais
-                            </button>
+                            <div className="mt-6 flex flex-col items-center gap-4 md:items-start">
+                                <button
+                                    onClick={() => {
+                                        navigate('/animais')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Animais
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/habitats')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Habitats
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/habitats')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Habitats
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/guias')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Guias
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/guias')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Guias
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/criadouros')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Criadouros
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/criadouros')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Criadouros
+                                </button>
+                            </div>
                         </div>
-                    </div>
 
-                    {/* Extra */}
-                    <div>
-                        <h3 className="text-lg font-bold text-white">
-                            Plataforma
-                        </h3>
+                        {/* Extra */}
+                        <div className="text-center md:text-left">
+                            <h3 className="text-lg font-bold text-white">
+                                Plataforma
+                            </h3>
 
-                        <div className="mt-6 flex flex-col gap-4">
-                            <button
-                                onClick={() => {
-                                    navigate('/posse-responsavel')
-                                }}
-                                className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
-                                <Leaf className="h-4 w-4" />
-                                Posse responsável
-                            </button>
+                            <div className="mt-6 flex flex-col items-center gap-4 md:items-start">
+                                <button
+                                    onClick={() => {
+                                        navigate('/posse-responsavel')
+                                    }}
+                                    className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
+                                    <Leaf className="h-4 w-4" />
+                                    Posse responsável
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/bem-estar-animal')
-                                }}
-                                className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
-                                <Heart className="h-4 w-4" />
-                                Bem-estar animal
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/bem-estar-animal')
+                                    }}
+                                    className="flex items-center gap-2 text-left text-zinc-400 transition hover:text-primary">
+                                    <Heart className="h-4 w-4" />
+                                    Bem-estar animal
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/politica-de-privacidade')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Política de privacidade
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/politica-de-privacidade')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Política de privacidade
+                                </button>
 
-                            <button
-                                onClick={() => {
-                                    navigate('/termos-de-uso')
-                                }}
-                                className="text-left text-zinc-400 transition hover:text-primary">
-                                Termos de uso
-                            </button>
+                                <button
+                                    onClick={() => {
+                                        navigate('/termos-de-uso')
+                                    }}
+                                    className="text-left text-zinc-400 transition hover:text-primary">
+                                    Termos de uso
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
