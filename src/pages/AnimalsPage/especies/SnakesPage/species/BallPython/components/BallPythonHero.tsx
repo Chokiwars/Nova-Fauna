@@ -38,7 +38,7 @@ const taxonomy = [
 
     {
         label: 'Espécie',
-        value: 'P. regius',
+        value: 'Python regius',
     },
 ]
 
@@ -65,7 +65,7 @@ export function BallPythonHero() {
                 <div className="max-w-4xl">
 
                     <h1 className="text-6xl font-black leading-[0.95] text-primary md:text-7xl xl:text-8xl">
-                        Ball Python
+                        Píton-real 
                     </h1>
 
                     <p className="text-sm font-semibold uppercase tracking-[0.4em] text-white/50">
