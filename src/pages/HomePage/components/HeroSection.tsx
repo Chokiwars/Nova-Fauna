@@ -1,5 +1,6 @@
 import { ChevronDown, Shell } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const heroImages = [
     {
@@ -87,10 +88,12 @@ export function HeroSection() {
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-4">
-                    <button className="rounded-2xl bg-primary px-8 py-4 text-lg font-semibold text-black transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(34,197,94,0.35)]">
+                    <Link
+                    to="/animais"
+                    className="rounded-2xl bg-primary px-8 py-4 text-lg font-semibold text-black transition duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(34,197,94,0.35)]"
+                    >
                         Explorar espécies
-                    </button>
-
+                    </Link>
                     <button className="rounded-2xl border border-zinc-700 bg-black/40 px-8 py-4 text-lg font-semibold text-white backdrop-blur-md transition hover:border-primary hover:bg-primary/10">
                         Conhecer habitats
                     </button>
