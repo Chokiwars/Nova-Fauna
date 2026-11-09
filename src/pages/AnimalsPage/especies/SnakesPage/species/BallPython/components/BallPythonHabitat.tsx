@@ -214,69 +214,6 @@ export function BallPythonHabitat() {
                             </div>
                         </div>
                     </article>
-
-                    {/* Comportamento */}
-                    <article className="grid gap-14 lg:grid-cols-[1fr_120px]">
-
-                        <div className="text-right">
-
-                            <h3 className="text-4xl font-black text-white">
-                                Comportamento selvagem
-                            </h3>
-
-                            <div className="mt-6 h-px w-full bg-gradient-to-l from-primary/30 via-zinc-800 to-transparent" />
-
-                            <div className="mt-10 space-y-8 text-lg leading-9 text-zinc-400">
-
-                                <p>
-                                    Ball Pythons possuem hábitos principalmente
-                                    noturnos e crepusculares. Durante o dia,
-                                    normalmente permanecem escondidas em abrigos
-                                    seguros, saindo apenas quando a temperatura
-                                    diminui e o ambiente se torna mais seguro
-                                    para caça e exploração.
-                                </p>
-
-                                <p>
-                                    A espécie utiliza o excelente olfato e os
-                                    sensores térmicos presentes na região da
-                                    cabeça para localizar presas no escuro.
-                                    Pequenos mamíferos representam a maior parte
-                                    da dieta na natureza, principalmente
-                                    roedores encontrados próximos a plantações,
-                                    campos e regiões rurais.
-                                </p>
-
-                                <p>
-                                    Apesar do tamanho relativamente robusto,
-                                    Ball Pythons são animais extremamente
-                                    reservados e evitam confrontos sempre que
-                                    possível. Quando ameaçadas, preferem fugir
-                                    ou se esconder ao invés de atacar. Caso não
-                                    encontrem saída, realizam o famoso
-                                    comportamento defensivo de enrolar o corpo
-                                    formando uma “bola”, protegendo a cabeça no
-                                    centro.
-                                </p>
-
-                                <p>
-                                    Esse comportamento mais tímido e defensivo é
-                                    justamente um dos fatores que transformou a
-                                    espécie em uma das serpentes mais populares
-                                    do mundo no hobby de animais exóticos.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-col items-center">
-
-                            <div className="flex h-24 w-24 items-center justify-center rounded-[2rem] border border-primary/20 bg-primary/10 text-primary">
-                                <Moon className="h-12 w-12" />
-                            </div>
-
-                            <div className="mt-4 h-full w-px bg-gradient-to-b from-primary/30 to-transparent" />
-                        </div>
-                    </article>
                 </div>
             </div>
         </section>
