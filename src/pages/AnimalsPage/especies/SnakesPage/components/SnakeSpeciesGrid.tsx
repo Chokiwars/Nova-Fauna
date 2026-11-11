@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const snakes = [
     {
-        name: 'Ball Python',
+        name: 'Píton-real',
         scientificName: 'Python regius',
         path: '/animais/serpentes/python-regius',
         description:
@@ -14,7 +14,7 @@ const snakes = [
     },
 
     {
-        name: 'Boa C. Constrictor',
+        name: 'Jiboia de Cauda Vermelha',
         scientificName: 'Boa constrictor constrictor',
         path: '/animais/serpentes/boa-constrictor-constrictor',
         description:
@@ -25,7 +25,7 @@ const snakes = [
     },
 
     {
-        name: 'Rainbow Boa',
+        name: 'Jiboia Arco-Íris da Amazônia',
         scientificName: 'Epicrates cenchria',
         path: '/animais/serpentes/epicrates-cenchria',
         description:
@@ -36,7 +36,8 @@ const snakes = [
     },
 
     {
-        name: 'King Snake',
+        name: 'Cobra Rei',
+        scientificName: 'Lampropeltis getula',
         path: '/animais/serpentes/king-snake',
         description:
             'Espécie resistente, ativa e extremamente curiosa, muito apreciada por criadores devido à facilidade de manejo.',
@@ -46,7 +47,8 @@ const snakes = [
     },
 
     {
-        name: 'Milk Snake',
+        name: 'Cobra de Leite',
+        scientificName: 'Lampropeltis triangulum',
         path: '/animais/serpentes/milk-snake',
         description:
             'Reconhecida pelos padrões coloridos impressionantes, a Milk Snake combina beleza, atividade e comportamento interessante.',
@@ -56,14 +58,14 @@ const snakes = [
     },
 
     {
-        name: 'Periquitamboia',
-        scientificName: 'Corallus caninus',
-        path: '/animais/serpentes/corallus-caninus',
+        name: 'Cobra Papagaio',
+        scientificName: 'Corallus batesii',
+        path: '/animais/serpentes/corallus-batesii',
         description:
-            'Conhecida pela coloração vibrante em tons de verde, a Periquitamboia chama atenção pelo visual exótico e pelos hábitos arborícolas fascinantes.',
+            'Conhecida pela coloração vibrante em tons de verde, a Cobra Papagaio chama atenção pelo visual exótico e pelos hábitos arborícolas fascinantes.',
 
         image:
-            'https://images.pexels.com/photos/15542641/pexels-photo-15542641.jpeg',
+            'https://images.pexels.com/photos/31719634/pexels-photo-31719634.jpeg',
     },
 ]
 
